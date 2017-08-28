@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(),SendPhotos.class);
+                Intent i = new Intent(getApplicationContext(),second.class);
                 startActivity(i);
             }
         });
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     protected void graph(View view){
-        Intent intent = new Intent(FromActivity.this, second.class);
+        Intent intent = new Intent(this, second.class);
         startActivity(intent);
     }
 }
