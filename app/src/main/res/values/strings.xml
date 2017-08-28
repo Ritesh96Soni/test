@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="magaccel">√(∑(X)²) ⇒ %.4f</string>
+    <string name="maglight">Light Intensity ⇒ %.4f</string>
+    <string name="magpress">Pressure ⇒ %.4f</string>
+    <string name="magtemp">Ambient Temperature ⇒ %.4f</string>
+    <string name="Header">SENSOR DATA</string>
+    <string name="graph">Graph</string>
+    <string name="title_activity_second">second</string>
+</resources>
